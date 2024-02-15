@@ -8,7 +8,7 @@ module "labels" {
 }
 data "google_client_config" "current" {
 }
-#------------------------------------------(google_compute_instance)-------------------------------------
+#------------------------------------------(google_compute_instance)-----------------------------------
 #tfsec:ignore:google-compute-no-default-service-account
 #tfsec:ignore:google-compute-no-project-wide-ssh-keys
 #tfsec:ignore:google-compute-enable-shielded-vm-vtpm

@@ -16,7 +16,7 @@ module "vpc" {
   delete_default_routes_on_create           = false
 }
 
-#------------------------------------------(subnet)--------------------------------------------------------------
+#------------------------------------------(subnet)------------------------------------------------------------
 module "subnet" {
   source        = "git::git@github.com:opsstation/terraform-gcp-subnet.git?ref=v1.0.0"
   subnet_names  = ["dev-subnet1"]
